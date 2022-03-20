@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0AA8D8A6BE493852C9DE5F82 /* Pods_ARCL_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413FE68E839F748541FD3DDA /* Pods_ARCL_Test.framework */; };
 		2F0FDD0B27DB856200A87578 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0FDD0A27DB856200A87578 /* MapView.swift */; };
+		2FD2776D27E56BC0009CD5D3 /* AdministrationBuildingIIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2776C27E56BC0009CD5D3 /* AdministrationBuildingIIViewModel.swift */; };
+		2FD2777027E57069009CD5D3 /* InformationEngineeringEngBuildingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2776F27E57069009CD5D3 /* InformationEngineeringEngBuildingViewModel.swift */; };
+		2FD2777327E574A6009CD5D3 /* RenYanBuildingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2777227E574A6009CD5D3 /* RenYanBuildingViewModel.swift */; };
 		2FE72B5627DA0EAF005C3D08 /* ARCL_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72B5527DA0EAF005C3D08 /* ARCL_TestApp.swift */; };
 		2FE72B5827DA0EAF005C3D08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72B5727DA0EAF005C3D08 /* ContentView.swift */; };
 		2FE72B5A27DA0EB0005C3D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72B5927DA0EB0005C3D08 /* Assets.xcassets */; };
@@ -20,12 +23,23 @@
 		2FE72B7327DA1E86005C3D08 /* Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FE72B6F27DA17DD005C3D08 /* Locations.json */; };
 		2FE72B7627DA217C005C3D08 /* LandMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72B7527DA217C005C3D08 /* LandMarkView.swift */; };
 		2FE72B7B27DA9A8B005C3D08 /* BeaconDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE72B7A27DA9A8B005C3D08 /* BeaconDetector.swift */; };
+		2FE7DB7D27E79AA300EE6C1B /* AdministrationBuildingII.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2776B27E569F2009CD5D3 /* AdministrationBuildingII.json */; };
+		2FE7DB7E27E79AA300EE6C1B /* InformationEngineeringEngBuilding.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2776E27E56C22009CD5D3 /* InformationEngineeringEngBuilding.json */; };
+		2FE7DB7F27E79AA300EE6C1B /* RenYanBuilding.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2777127E5709F009CD5D3 /* RenYanBuilding.json */; };
 		2FF2A6CB27DF53AF00939136 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2A6CA27DF53AF00939136 /* LibraryViewModel.swift */; };
 		2FF2A6CD27DF53DB00939136 /* OfficeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2A6CC27DF53DB00939136 /* OfficeObject.swift */; };
+		2FF2A6CE27DF5AEE00939136 /* Library.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2A6C927DF52F200939136 /* Library.json */; };
+		2FF2A6D027DF671400939136 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2A6CF27DF671400939136 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F0FDD0A27DB856200A87578 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2FD2776B27E569F2009CD5D3 /* AdministrationBuildingII.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdministrationBuildingII.json; sourceTree = "<group>"; };
+		2FD2776C27E56BC0009CD5D3 /* AdministrationBuildingIIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministrationBuildingIIViewModel.swift; sourceTree = "<group>"; };
+		2FD2776E27E56C22009CD5D3 /* InformationEngineeringEngBuilding.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InformationEngineeringEngBuilding.json; sourceTree = "<group>"; };
+		2FD2776F27E57069009CD5D3 /* InformationEngineeringEngBuildingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationEngineeringEngBuildingViewModel.swift; sourceTree = "<group>"; };
+		2FD2777127E5709F009CD5D3 /* RenYanBuilding.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RenYanBuilding.json; sourceTree = "<group>"; };
+		2FD2777227E574A6009CD5D3 /* RenYanBuildingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenYanBuildingViewModel.swift; sourceTree = "<group>"; };
 		2FE72B5227DA0EAF005C3D08 /* ARCL_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCL_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE72B5527DA0EAF005C3D08 /* ARCL_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCL_TestApp.swift; sourceTree = "<group>"; };
 		2FE72B5727DA0EAF005C3D08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +56,7 @@
 		2FF2A6C927DF52F200939136 /* Library.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Library.json; sourceTree = "<group>"; };
 		2FF2A6CA27DF53AF00939136 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
 		2FF2A6CC27DF53DB00939136 /* OfficeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeObject.swift; sourceTree = "<group>"; };
+		2FF2A6CF27DF671400939136 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		413FE68E839F748541FD3DDA /* Pods_ARCL_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCL_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		949C81F99A311E144FAF1CAC /* Pods-ARCL_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCL_Test.release.xcconfig"; path = "Target Support Files/Pods-ARCL_Test/Pods-ARCL_Test.release.xcconfig"; sourceTree = "<group>"; };
 		BFE3A1002C8CE64CBB93A1BB /* Pods-ARCL_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCL_Test.debug.xcconfig"; path = "Target Support Files/Pods-ARCL_Test/Pods-ARCL_Test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +139,9 @@
 			children = (
 				2FE72B6A27DA16BE005C3D08 /* LocationFactory.swift */,
 				2FF2A6CA27DF53AF00939136 /* LibraryViewModel.swift */,
+				2FD2776C27E56BC0009CD5D3 /* AdministrationBuildingIIViewModel.swift */,
+				2FD2776F27E57069009CD5D3 /* InformationEngineeringEngBuildingViewModel.swift */,
+				2FD2777227E574A6009CD5D3 /* RenYanBuildingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -141,8 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				2FE72B5727DA0EAF005C3D08 /* ContentView.swift */,
-				2FE72B7527DA217C005C3D08 /* LandMarkView.swift */,
 				2F0FDD0A27DB856200A87578 /* MapView.swift */,
+				2FE72B7527DA217C005C3D08 /* LandMarkView.swift */,
+				2FF2A6CF27DF671400939136 /* ListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +171,9 @@
 			children = (
 				2FE72B6F27DA17DD005C3D08 /* Locations.json */,
 				2FF2A6C927DF52F200939136 /* Library.json */,
+				2FD2776B27E569F2009CD5D3 /* AdministrationBuildingII.json */,
+				2FD2776E27E56C22009CD5D3 /* InformationEngineeringEngBuilding.json */,
+				2FD2777127E5709F009CD5D3 /* RenYanBuilding.json */,
 				2FE72B5927DA0EB0005C3D08 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -233,6 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE7DB7D27E79AA300EE6C1B /* AdministrationBuildingII.json in Resources */,
+				2FE7DB7E27E79AA300EE6C1B /* InformationEngineeringEngBuilding.json in Resources */,
+				2FE7DB7F27E79AA300EE6C1B /* RenYanBuilding.json in Resources */,
+				2FF2A6CE27DF5AEE00939136 /* Library.json in Resources */,
 				2FE72B7327DA1E86005C3D08 /* Locations.json in Resources */,
 				2FE72B5D27DA0EB0005C3D08 /* Preview Assets.xcassets in Resources */,
 				2FE72B5A27DA0EB0005C3D08 /* Assets.xcassets in Resources */,
@@ -290,14 +316,18 @@
 			files = (
 				2FE72B5827DA0EAF005C3D08 /* ContentView.swift in Sources */,
 				2FE72B7B27DA9A8B005C3D08 /* BeaconDetector.swift in Sources */,
+				2FD2776D27E56BC0009CD5D3 /* AdministrationBuildingIIViewModel.swift in Sources */,
 				2FE72B6E27DA16E1005C3D08 /* LocationObject.swift in Sources */,
+				2FD2777027E57069009CD5D3 /* InformationEngineeringEngBuildingViewModel.swift in Sources */,
 				2FE72B6627DA1623005C3D08 /* LandmarkNode.swift in Sources */,
 				2FE72B7627DA217C005C3D08 /* LandMarkView.swift in Sources */,
 				2FE72B6B27DA16BE005C3D08 /* LocationFactory.swift in Sources */,
 				2FE72B5627DA0EAF005C3D08 /* ARCL_TestApp.swift in Sources */,
 				2F0FDD0B27DB856200A87578 /* MapView.swift in Sources */,
+				2FF2A6D027DF671400939136 /* ListView.swift in Sources */,
 				2FF2A6CB27DF53AF00939136 /* LibraryViewModel.swift in Sources */,
 				2FE72B6427DA15FF005C3D08 /* LocationLayerNode.swift in Sources */,
+				2FD2777327E574A6009CD5D3 /* RenYanBuildingViewModel.swift in Sources */,
 				2FF2A6CD27DF53DB00939136 /* OfficeObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

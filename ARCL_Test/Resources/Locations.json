@@ -33,7 +33,7 @@
     },
     {
         "name": "科學與航太館",
-        "image": "Science_and _Aeronautical_Eng_building",
+        "image": "Science_and_Aeronautical_Eng_building",
         "latitude": 24.17830218,
         "longitude": 120.64913269,
         "altitude": 100,
@@ -49,7 +49,7 @@
     },
     {
         "name": "忠勤樓",
-        "image": "Jong-Chin_Building",
+        "image": "Jong_Chin_Building",
         "latitude": 24.17911822,
         "longitude": 120.64684074,
         "altitude": 100,
@@ -81,7 +81,7 @@
     },
     {
         "name": "人言大樓",
-        "image": "Ren-Yan_Building",
+        "image": "Ren_Yan_Building",
         "latitude": 24.17964736,
         "longitude": 120.64859692,
         "altitude": 100,

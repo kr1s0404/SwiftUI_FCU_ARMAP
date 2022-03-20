@@ -9,9 +9,8 @@ import SwiftUI
 
 private enum CodingKeys: String, CodingKey {
     case name        = "name"
-    case phone       = "latitude"
-    case office      = "longitude"
-    
+    case phone       = "phone"
+    case office      = "office"
 }
 
 struct OfficeObject: Hashable {

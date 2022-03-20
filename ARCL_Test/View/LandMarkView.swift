@@ -10,6 +10,7 @@ import MapKit
 
 struct LandMarkView: View
 {
+    
     @Environment(\.presentationMode) var presentationMode
     
     @State var LandMark: LandmarkNode?
@@ -46,7 +47,7 @@ struct LandMarkView: View
                             .offset(y: -130)
                             .padding(.bottom, -130)
                         
-                        VStack(alignment: .leading)
+                        VStack(alignment: .leading, spacing: 0)
                         {
                             ScrollView
                             {
@@ -74,6 +75,9 @@ struct LandMarkView: View
                                 .padding(.vertical)
                                 
                                 Text(object.description)
+                                
+                                // TODO: 放各個大樓的師長辦公室
+                                ListView()
                             }
                         }
                         .padding()
@@ -82,6 +86,7 @@ struct LandMarkView: View
                     }
                 }
             }
+            .edgesIgnoringSafeArea(.all)
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarLeading) {
                     Button {
@@ -94,7 +99,6 @@ struct LandMarkView: View
                             .background(Color.blue)
                             .cornerRadius(20)
                     }
-
                 }
             }
         }
